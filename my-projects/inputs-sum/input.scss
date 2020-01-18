@@ -1,0 +1,35 @@
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #6495ed45;
+}
+
+h2 {
+  color: #00008b;
+}
+
+.inputs {
+  width: 80%;
+  margin: 100px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  &__first,
+  &__second,
+  &__result {
+    width: 40%;
+    height: 50px;
+    margin-bottom: 50px;
+    background-color: #c0b4cc57;
+    border: 3px solid #b385e0;
+    font-size: 30px;
+    padding: 0 30px;
+  }
+  &__result {
+    display: flex;
+    align-items: center;
+    font-style: italic;
+  }
+}
