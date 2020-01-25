@@ -1,0 +1,2 @@
+*{padding:0;margin:0;background-color:#000}.motion-button{margin:auto;width:90vw;height:90vh;position:relative}.motion-button__button{position:absolute;top:55%;left:47%;width:200px;height:60px;background:cyan;border:none;border-radius:5px;font-size:25px;-webkit-transition:all .5s ease-out;transition:all .5s ease-out}.motion-button__button:focus,.motion-button__button:active{outline:none}
+/*# sourceMappingURL=motion-button.min.css.map */
