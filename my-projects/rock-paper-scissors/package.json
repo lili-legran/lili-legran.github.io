@@ -1,0 +1,23 @@
+{
+  "name": "rock-paper-scissors",
+  "version": "1.0.0",
+  "description": "\u0000 \u0000r\u0000o\u0000c\u0000k\u0000-\u0000p\u0000a\u0000p\u0000e\u0000r\u0000-\u0000s\u0000c\u0000i\u0000s\u0000s\u0000o\u0000r\u0000s\u0000\r\u0000 \u0000",
+  "private": "true",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lili-legran/rock-paper-scissors.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lili-legran/rock-paper-scissors/issues"
+  },
+  "homepage": "https://github.com/lili-legran/rock-paper-scissors#readme",
+  "devDependencies": {
+    "webpack": "^4.41.5",
+    "webpack-cli": "^3.3.10"
+  }
+}
