@@ -4,20 +4,24 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Coming+Soon&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./todo-list.min.css">
   <title>ToDo-list</title>
 </head>
 <body>
+  <h1>ToDo LIST</h1>
   <div class="todo-list">
-    <h3>Создать новую задачу</h3>
+    <h3>Create new task :</h3>
     <div class="todo-list__add-task-container">
       <input class="todo-list__input">
       <button class="todo-list__add-button">+</button>
     </div> 
-    <h1>Задачи в работе</h1>
+    <h2>Tasks in work</h2>
     <ul class="todo-list__active-tasks"></ul>
-    <h1>Выполненные задачи</h1>
+    <h2 class="todo-list__completed-name">Сompleted tasks</h2>
     <ul class="todo-list__completed-tasks"></ul>
+    <img class="todo-list__pin-1" src="./assets/pin-1.png" alt="pin">
+    <img class="todo-list__pin-2" src="./assets/pin-2.png" alt="pin">
   </div>
   <script src='./todo-list.js'></script>
 </body>

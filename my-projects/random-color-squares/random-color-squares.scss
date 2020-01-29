@@ -4,23 +4,24 @@
 }
 
 body {
-  font-family: 'Baskervville', serif;
+  font-family: 'Lakki Reddy', cursive;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
+  justify-content: space-between;
   align-items: center;
-  background: #000;
+  background: #55f47c;
+  height: 100vh;
 }
 
 h1 {
-  font-size: 45px;
-  padding: 50px 0;
-  background: #ce4848;
-  color: #000;
+  font-size: 70px;
+  padding: 60px 0;
+  background: #d6fb68;
+  color: #734a2c;
   width: 100%;
   height: 60px;
   text-align: center;
-  margin-bottom: 50px;
+  text-shadow: 5px 5px 10px #a3968c
 }
 
 .squares {
@@ -31,13 +32,12 @@ h1 {
   justify-content: center;
   align-items: center;
   flex-wrap: wrap;
-  margin-bottom: 4vh;
   &__row {
     display: flex;
   }
   &__item {
     box-sizing: border-box;
-    background: #8c8a8a;
+    background: #6c523f40;
     cursor: pointer;
   }
   &__shadow {
@@ -45,14 +45,14 @@ h1 {
     z-index: 1;
   }
   &__about-me {
-    background: #ce4848;
+    background: #d6fb68;
     width: 100%;
     display: flex;
     justify-content: center;
     padding: 10px 0;
     font-size: 16px;
     &_link {
-      color: #77117b;
+      color: #734a2c;
       &:hover {
         text-decoration: none;
       }

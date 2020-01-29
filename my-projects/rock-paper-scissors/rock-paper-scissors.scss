@@ -8,7 +8,7 @@ body {
 
 h1 {
   font-size: 60px;
-  margin-bottom: 100px;
+  margin: 50px 0px 70px 0;
 }
 
 .game {
@@ -16,7 +16,6 @@ h1 {
   flex-direction: column;
   align-items: center;
   background: yellow;
-  padding: 50px;
   height: 100vh;
   &__container {
     display: flex;

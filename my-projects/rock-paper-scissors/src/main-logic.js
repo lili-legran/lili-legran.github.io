@@ -60,6 +60,16 @@ const showGamerChoice = () => {
   reverseImage(); 
 }
 
+const showGamerRock = () => {
+  gamerImage.style.backgroundImage = 'url(' + rock + ')';
+  reverseImage();
+}
+
+const showComputerRock = () => {
+  computerImage.style.backgroundImage = 'url(' + rock + ')';
+  reverseImage();
+}
+
 const getResult = () => {
   if (gamerChoice == rock && computerChoice == scissors 
     || gamerChoice == scissors && computerChoice == paper
@@ -88,6 +98,9 @@ const showResult = () => {
 }
 
 export const play = () => {
+  showGamerRock(); //
+  showComputerRock(); //
+  // showGamerChoice();
   updateResultText();
   dissabledButtons();
   animationStart();
