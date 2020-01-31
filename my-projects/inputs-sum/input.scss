@@ -2,16 +2,30 @@
 body {
   margin: 0;
   padding: 0;
-  background-color: #6495ed45;
+  background-color: #5551da;
+  font-family: 'Acme', sans-serif;
+}
+
+h1 { 
+  width: 100%;
+  text-align: center;
+  font-size: 2em;
+  font-size: 3.5em;
+  color: #5551da;
+  background: #cde60f;
+  margin: 0 0 50px 0;
+  padding: 50px 0;
 }
 
 h2 {
-  color: #00008b;
+  color: #cde60f;
+  font-size: 2em;
+  font-weight: 400;
 }
 
 .inputs {
   width: 80%;
-  margin: 100px auto;
+  margin: 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -19,17 +33,21 @@ h2 {
   &__first,
   &__second,
   &__result {
+    font-family: 'Acme', sans-serif;
     width: 40%;
     height: 50px;
     margin-bottom: 50px;
-    background-color: #c0b4cc57;
-    border: 3px solid #b385e0;
+    background-color: rgba(113, 110, 228, 0.58);
+    color: #fff;
+    border: none;
     font-size: 30px;
     padding: 0 30px;
+    text-align: center;
   }
   &__result {
     display: flex;
     align-items: center;
+    justify-content: center;
     font-style: italic;
   }
 }

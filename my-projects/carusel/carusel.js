@@ -40,10 +40,10 @@ const infinityPrevMotion = () => {
 
 nextButton.addEventListener('click', caruselNextMotion);
 prevButton.addEventListener('click', caruselPrevMotion);
-let automaticMotion = setInterval(caruselNextMotion, 1000);
+let automaticMotion = setInterval(caruselNextMotion, 4000);
 
 caruselVisualContainer.onmouseout = function continueMotion() {
-    automaticMotion = setInterval(caruselNextMotion, 1000);
+    automaticMotion = setInterval(caruselNextMotion, 4000);
 }
 
 caruselVisualContainer.onmouseover = function stopMotion() {
