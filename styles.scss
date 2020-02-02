@@ -30,9 +30,9 @@ body {
   position: absolute;
   width: calc(100% - 20%);
   &__description {
-    font-size: 2.5em;
+    font-size: 2.3em;
     z-index: 5;
-    margin-bottom: 5%;
+    margin-bottom: 1%;
     text-align: end;
   }
   &__progects {
@@ -41,13 +41,19 @@ body {
     display: flex;
     flex-direction: column;
     align-items: flex-end;
-    font-size: 2em;
+    font-size: 1.7em;
     a {
       text-decoration: none;
       color: #c34646;
       &:hover {
         text-decoration: underline;
       }
+    }
+  }
+  &__github-link {
+    color: #463131;
+    &:hover {
+      text-decoration: none;
     }
   }
 }

@@ -20,7 +20,6 @@ const setDesktop = () => {
   for (let i = 0; i < rows; i++) {
     let desktopRow = document.createElement('div');
     desktopRow.classList.add('painter__desktop_row');
-    desktop.appendChild(desktopRow);
     for (let j = 0; j < columns; j++) {
       let point = document.createElement('div');
       desktopRow.appendChild(point);
@@ -36,6 +35,7 @@ const setDesktop = () => {
         }
       });
     }
+    desktop.appendChild(desktopRow);
   }
 }
 
