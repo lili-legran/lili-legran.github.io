@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link href="https://fonts.googleapis.com/css?family=Handlee&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./button-creation.min.css">
+  <title>Button creation</title>
+</head>
+
+<body>
+  <h1>Button creation</h1>
+  <div class='application'>
+    <div class="row">
+      <div class="buttons-props">
+        <label for='button-width' class='buttons-props__name'>Width:</label>
+        <input class='buttons-props__width' id='button-width'>
+      </div>
+      <div class="buttons-props">
+        <label for='button-color' class='buttons-props__name'>Text color:</label>
+        <input class='buttons-props__color' id='button-color'>
+      </div>
+    </div>
+    <div class="row">
+      <div class="buttons-props">
+        <label for='button-height' class='buttons-props__name'>Height:</label>
+        <input class='buttons-props__height' id='button-height'>
+      </div>
+      <div class="buttons-props">
+        <label for='button-background' class='buttons-props__name'>Background color:</label>
+        <input class='buttons-props__background' id='button-background'>
+      </div>
+    </div>
+    <div class="row button__row">
+      <button class='button button__creator'>CREATE</button>
+      <button class='button button__clear'>CLEAN</button>
+      <button class='button button__fill'>FILL</button>
+    </div>
+    <div class="created-buttons"></div>
+  </div>
+  <script src='./button-creation.js'></script>
+</body>
+
+</html>
